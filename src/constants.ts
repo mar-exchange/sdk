@@ -14,7 +14,9 @@ export enum ChainId {
   FANTOM = 250,
   FANTOM_TESTNET = 4002,
   XDAI = 100,
+  XCHAIN = 35,
   BSC = 56,
+  BKC = 96,
   BSC_TESTNET = 97,
   ARBITRUM = 79377087078960,
   MOONBASE = 1287,
@@ -64,7 +66,10 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.HARMONY_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
   [ChainId.OKEX]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
-  [ChainId.OKEX_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4'
+  [ChainId.OKEX_TESTNET]: '0xc35DADB65012eC5796536bD9864eD8773aBc74C4',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:''
+
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -89,6 +94,8 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.HARMONY_TESTNET]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
   [ChainId.OKEX]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:'',
   [ChainId.OKEX_TESTNET]: '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506'
 }
 
@@ -114,6 +121,8 @@ export const MAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:'',
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -139,6 +148,8 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:'',
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -164,6 +175,8 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:'',
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -189,6 +202,8 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:'',
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -214,6 +229,8 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
+  [ChainId.BKC]:'',
+  [ChainId.XCHAIN]:'',
   [ChainId.OKEX_TESTNET]: ''
 }
 
